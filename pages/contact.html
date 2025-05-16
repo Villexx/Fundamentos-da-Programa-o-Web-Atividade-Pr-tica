@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Victor B Silva</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <header>
+
+        <nav>
+            <a id="siteName" href="../index.html" oneclick="showPage('mainPage')">My Portfolio</a>
+
+            <ul id="navLinks">
+                <li><a href="../pages/projects.html">Projects</a></li>
+                <li><a href="../pages/education.html">Education</a></li>
+                <li><a href="../pages/about.html">About me</a></li>
+                <li><a href="../pages/contact.html">Contact me</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Conteúdo da página principal -->
+    <main id="mainPage">
+
+        <div id="content">
+
+            <!-- Conteúdo introdutório -->
+            <h1>Entre em contato comigo</h1>
+            <br>
+            <p>Se você tem uma ideia, projeto, sugestão ou apenas quer trocar uma ideia sobre tecnologia e desenvolvimento,
+            será um prazer conversar com você!</p>
+            <br>
+            <p>Preencha o formulário abaixo ou utilize um dos links diretos. Responderei o mais breve possível!</p>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+            <br>
+
+            <!-- Formulário -->
+            <form>
+                <label for="name">Nome:</label><br>
+                <input class="boxName" type="text" id="name" name="name" placeholder="Digite seu nome" required><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input class="boxEmail" type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+
+                <label for="message">Mensagem:</label><br>
+                <textarea class="boxText" id="message" name="message" rows="6" placeholder="Digite sua mensagem." required></textarea>
+                <br><br>
+                <div class="divbutton">
+                <button class="sendButton" type="submit">Enviar</button>
+                <br>
+            </form>
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+            
+            <br>
+
+            <!-- Título -->
+            <h3 id="tituloH3">Contate-me pelas minhas redes!</h3>
+
+            <br>
+
+            <!-- Lista -->
+            <ul class="contactLinks">
+                <li><a href="emailfake@gmail.com"> <img src="../icons/iconGmail.png" alt="icone-gmail"></a></li>
+                <li><a href="https://www.linkedin.com/" target="#"> <img src="../icons/iconLinkedin.png" alt="icone-linkedIn"></a></li>
+                <li><a href="https://github.com" target="#"><img src="../icons/iconGitHub.png" alt="icone-Github"></a></li>
+            </ul>
+            
+        </div>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="footer">
+
+        <p>&copy; 2025 Victor B. Silva. Todos os direitos reservados.</p>
+
+    </footer>
+
+</body>
+
+</html>
